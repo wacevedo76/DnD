@@ -6,6 +6,14 @@ class Character
     @password = ''
   end
   
+  def password?
+    if @password == ''
+      'Password not assigned'
+    else
+      'password assigned'
+    end
+  end
+
   def change_password(old_password, new_password)
     if @password.empty?
       @password = new_password
