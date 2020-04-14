@@ -10,7 +10,7 @@ class Character
     if @password == ''
       'Password not assigned'
     else
-      'password assigned'
+      'Password assigned'
     end
   end
 

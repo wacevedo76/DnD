@@ -8,15 +8,22 @@ RSpec.describe 'A D&D character' do
   end
 
   it 'can be assigned a password' do
-    password = '123456'
+    old_password = '' # empty string, default settins
+    new_password = '123456'
 
-    confirmed = player.change_password('', password)
+    confirmed = player.change_password(old_password, new_password)
     expect(confirmed).to eq('Password assigned')
   end
 
   it 'can check that a password is set' do
-    pending 'test not implemented yet.'  
     expect(player.password?).to eq('Password not assigned')
+
+    old_password = '' # empty string, default settins
+    new_password = '123456'
+
+    player.change_password(old_password, new_password)
+    expect(player.password?).to eq('Password assigned')
   end
+
   it 'can confirm and change a password'
 end
