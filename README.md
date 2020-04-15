@@ -4,7 +4,11 @@
   <li>Create Character class and tests for said class</li>
   <li>create tool to help facilitate the creation of characters and respective tests</li>
 </ul>
+<<<<<<< HEAD
 <h3>Interesting facts (regarding this project)</h3>
+=======
+<h3>Intresting facts</h3>
+>>>>>>> c36f92d1ec73987ff7105fc84a387b6801b9e3c3
 <ul>
   <li>I have never played D&D, but have always wanted to</li>
   <li>I am character creation tips from a D&D 5 edition Character Creation series ->  <a href="https://www.youtube.com/playlist?list=PLz2TUw__7qw7_uewRKSkIj5S20Wjhr_oy" target="_blank">link</a></li>
