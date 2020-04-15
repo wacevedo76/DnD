@@ -7,23 +7,19 @@ class Character
   end
   
   def password?
-    if @password == ''
-      'Password not assigned'
-    else
-      'Password assigned'
-    end
+    !@password.empty?
   end
 
   def change_password(old_password, new_password)
     if @password.empty?
       @password = new_password
       'Password assigned'
-    elsif
+    else
       if old_password == @password
         @password = new_password
         'Password changed'
       else
-        'not changed'
+        'Password not changed'
       end
     end
   end
